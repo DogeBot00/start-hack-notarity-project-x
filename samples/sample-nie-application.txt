@@ -1,0 +1,14 @@
+APPLICATION FOR NIE NUMBER (Número de Identidad de Extranjero)
+
+Country of use: Spain (ES)
+Applicant: Joshua Timms
+Email: joshua.timms@example.com
+
+Purpose: This NIE application document is to be used in Spain for the purpose of
+obtaining a Spanish foreigner identification number (NIE). The document will be
+used abroad and will require an apostille for international recognition.
+
+Signatory: Joshua Timms (sole signer)
+
+[This is a sample document for offline demos. The deterministic fallback
+extractor detects: country = ES, documentType = NIE application, apostille = true.]

@@ -1,0 +1,19 @@
+POWER OF ATTORNEY (Vollmacht)
+
+This Power of Attorney is granted for use in Germany (Deutschland).
+
+Principal (Grantor): Maria Schneider
+Email: maria.schneider@example.com
+
+Attorney-in-fact (Grantee): Thomas Becker
+
+The Principal hereby authorises the Attorney-in-fact to act on their behalf in
+all matters relating to the sale of real property located in Munich, Germany.
+
+This document is intended for cross-border use and will require an apostille for
+recognition by the German authorities.
+
+Signatory: Maria Schneider (sole signer)
+
+[Sample document for offline demos. Expected extraction:
+country = DE, documentType = Power of Attorney, apostille = true.]

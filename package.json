@@ -1,0 +1,29 @@
+{
+  "name": "notarity-booking",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Document-first notary booking — START Hack Vienna '26 (notarity track)",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test:engine": "node --experimental-strip-types --import ./test/register.mjs test/engine.test.ts",
+    "test:extract": "node --experimental-strip-types --import ./test/register.mjs test/extract.test.ts",
+    "test:e2e": "node --experimental-strip-types --import ./test/register.mjs test/e2e-live.ts",
+    "test": "npm run test:engine && npm run test:extract"
+  },
+  "dependencies": {
+    "mammoth": "^1.12.0",
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "server-only": "0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.10",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "typescript": "5.5.3"
+  }
+}

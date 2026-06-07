@@ -1,0 +1,19 @@
+ARTICLES OF ASSOCIATION — FlexCo Incorporation (Flexible Kapitalgesellschaft)
+
+Jurisdiction: Austria (Österreich)
+
+This document concerns the incorporation of a new FlexCo (FlexKap) company to be
+registered in Vienna, Austria.
+
+Founders:
+  1. Lukas Gruber — lukas.gruber@example.com
+  2. Anna Berger — anna.berger@example.com
+
+The articles of association set out the company's share capital, management and
+shareholder rights. Notarisation is required for the incorporation to be entered
+into the Austrian commercial register (Firmenbuch).
+
+This document is for domestic use within Austria.
+
+[Sample document for offline demos. Expected extraction:
+country = AT, documentType = Company incorporation, apostille = false (domestic AT).]
