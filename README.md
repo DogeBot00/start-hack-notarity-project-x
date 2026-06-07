@@ -135,8 +135,8 @@ All settings live in `.env` (git-ignored; see `.env.example`):
 
 **Project X**
 
-- Ivan Komarov — team lead
-- Alexander Reinicke — member
+- **Ivan Komarov** — team lead · concept & product vision · lead engineer (web app, booking engine) · AI/ML extraction pipeline
+- **Alexander Reinicke** — supporting contributor · assisted with testing and task execution across the project
 
 ## Submission
 
