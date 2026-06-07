@@ -1,0 +1,22 @@
+// Cloudflare Workers deployment (via @opennextjs/cloudflare).
+// Secrets (NOTARITY_*, OPENAI_API_KEY, ...) are set with `wrangler secret put`,
+// never committed here.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "notarity-booking",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2025-04-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "vars": {
+    // non-secret config; NOTARITY_DEBUG stays true so the public demo can
+    // never trigger real emails from notarity staging
+    "NOTARITY_API_BASE": "https://staging-api.notarity.com",
+    "NOTARITY_FORM_SLUG": "start-vienna-hackathon",
+    "NOTARITY_DEBUG": "true",
+    "OPENAI_MODEL": "gpt-5.5"
+  }
+}

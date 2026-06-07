@@ -10,3 +10,6 @@ next-env.d.ts
 *.tsbuildinfo
 .claude/
 samples/Screenshot*
+.open-next
+.wrangler
+.dev.vars

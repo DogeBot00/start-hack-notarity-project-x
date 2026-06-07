@@ -11,7 +11,9 @@
     "test:engine": "node --experimental-strip-types --import ./test/register.mjs test/engine.test.ts",
     "test:extract": "node --experimental-strip-types --import ./test/register.mjs test/extract.test.ts",
     "test:e2e": "node --experimental-strip-types --import ./test/register.mjs test/e2e-live.ts",
-    "test": "npm run test:engine && npm run test:extract"
+    "test": "npm run test:engine && npm run test:extract",
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy"
   },
   "dependencies": {
     "mammoth": "^1.12.0",
@@ -21,9 +23,11 @@
     "server-only": "0.0.1"
   },
   "devDependencies": {
+    "@opennextjs/cloudflare": "^1.14.0",
     "@types/node": "20.14.10",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
-    "typescript": "5.5.3"
+    "typescript": "5.5.3",
+    "wrangler": "^4.98.0"
   }
 }
